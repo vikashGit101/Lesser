@@ -1,0 +1,412 @@
+body {
+    background-color: white;
+    margin: 0;
+    
+}
+
+/* -------------------------Navbar-section--------------------- */
+
+.main-header {
+    padding: 1.5em; 
+    border-bottom: 5px double #e5e5e5;
+    font-family: sans-serif;
+}
+
+#brand-logo {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a5a3a8;
+}
+
+nav .navbar-items a:hover {
+background: lightgreen;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.navbar-items a {
+    word-spacing: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-items {
+    word-spacing: 30px;
+}
+
+nav i {
+    font-size: 25px;
+    color: #12b681;
+}
+
+.current {
+    background-color: #00b37e;
+    color: white;
+    padding: 10px;
+    border-radius: 3em;
+
+}
+
+/* ------------------------1st-section-Hero -------------------- */
+
+h1 {
+    color: #4f4f4f;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 400;
+    padding: 1em;
+}
+
+.top-section-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 5em 7em 5em;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.right-col-bottom-pri {
+    width: 50%;
+}
+.right-col-bottom-sec {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    margin: 1em;
+    border-radius: 0.2em;
+}
+
+.text {
+    padding: 1em;
+    margin: 1em;
+}
+
+.text h3 {
+    font-size: 1.5em;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0.2em;
+}
+
+.text p {
+    font-size: 1em;
+    color: slategrey;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding-top: 0.2em;
+    margin-top: 0.2em;
+}
+
+.left-col {
+    background: url("images/image_6.jpg");
+    width: 50%;
+    height: 60vh;
+}
+
+.right-col-top {
+    background: url("images/image_8.jpg");
+    height: 50%;
+    margin-bottom: 2em;
+}
+
+.right-col-bottom-pri {
+    background: url("images/image_3.jpg");
+}
+
+.right-col-bottom-sec {
+    background: url("images/image_10.jpg");
+}
+
+
+/* -------------------- 2nd-section-Services ---------------------- */
+
+.section-services {
+    background: linear-gradient(to right, #00aa8e, #009fa2,#0094b9);
+    padding: 5%;
+    text-align: center;
+}
+
+.section-services h3 {
+    color: #d3ffff;
+}
+
+.section-services p {
+    text-align: center;
+    color:  #a9dbda;
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+
+#services-top h3{
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: 400;
+}
+
+article {
+    margin: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article h3 {
+    font-size: 1.6em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+article p {
+    line-height: 1.5em;
+}
+
+.section-services i {
+    color: #d3ffff;
+    font-size: 50px;
+}
+
+/* -------------------- 3rd-section-Blog ---------------------- */
+
+.blog-section {
+    background-color: #f2f4f5;
+    text-align: center;
+    padding: 5%;
+}
+
+.blog-section p {
+    font-family: sans-serif;
+    color: #9796a1;
+    text-align: center;
+}
+
+#blog-top h3 {
+    color: #4b4c4d;
+    font-size: 2.3em;
+    font-weight: 350;
+}
+
+#blog-top p {
+    color: #a19f9b;
+    font-size: 1.1em;
+    font-weight: 350;
+}    
+
+#blog img {
+    width: 400px;
+}
+
+#blog h4 {
+    color: #4b4c4d;
+    font-size: 1.8em;
+    font-weight: 350;
+}
+
+#blog p {
+    color: #a19f9b;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 0 2em 2em 2em;
+    line-height: 1.5em;
+}    
+
+#blog button {
+    padding: 0.8em;
+    border-radius: 3em;
+    border: 3px solid lightseagreen;
+    font-size: 1em;
+    color: lightseagreen;
+}
+
+#blog {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#blog div {
+    margin: 1em;
+    background-color: white;
+}
+
+/* -------------------- Testimonial-section---------------  */
+
+.testimonial-section {
+    /* height: 90vh; */
+    background-color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.testimonial-top h3 {
+    color: #4b4c4d;
+    font-size: 2.3em;
+    font-weight: 350;
+}
+
+.testimonial-top p {
+    font-family: sans-serif;
+    color: #9796a1;
+    text-align: center;
+}
+
+blockquote {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: lightslategray;
+}
+
+cite {
+    font-style: normal;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.testimonial-left cite i {
+    color: skyblue;
+}
+
+.testimonial-right cite i {
+    color: red;
+}
+
+.card-container {
+    margin: 0.7em;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item {
+    position: relative;
+    background-color: #f2f4f5;
+    margin: 0 10px;
+    padding: 5%;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 10px solid grey;
+    border: 20px solid white;
+    box-shadow: inset 0px 0px 0px 10px white;
+    box-sizing: border-box;
+    
+}
+
+.icon {
+    width: 3em;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    padding-bottom: 5%;
+    font-size: 2em;
+}
+
+.card-container i {
+    color: #b3b6b8;
+    font-size: 1em;
+}
+
+.testimonial-left {
+    width: 50%;
+
+}
+.testimonial-right {
+    width: 50%;
+}
+
+/* -----------  footer-section  ------------- */
+
+footer {
+    background-color: #2a2a2a;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+hr {
+    width: 80%;
+    color: #313131;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+footer h3 {
+    color: whitesmoke;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+footer p, li {
+    color: #626466;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 5em 10em 2em 10em;
+    align-items: flex-end;
+    line-height: 2.5em;
+    margin-top: 10em;
+}
+
+.copyright {
+    text-align: center;
+    padding: 3em;
+    margin-bottom: 15em;
+}
+
+.about {
+    width: 20%;
+}
+
+.services {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.follow-us {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.copyright span {
+    color: #0a966e;
+}
